@@ -17,6 +17,6 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as sk:
             break  
         timestamp = time.strftime('%Y-%m-%d %H:%M:%S')
         print(f'{timestamp}: Datos recibidos: {message}')
-        
+    sk.close()    
 
 
