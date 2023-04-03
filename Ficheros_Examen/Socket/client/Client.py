@@ -24,13 +24,13 @@ class Client:
     ADRESS = (HOST,PORT)
     csk = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
-    @staticmethod
+    
     def envia(msg):
         """
         Envia un mensaje al servidor, enviando primero un mensaje indicando la longitud del mensaje.
 
-        :param msg: El mensaje a enviar.
-        :type msg: variable.
+        param msg: El mensaje a enviar.
+        type msg: variable.
         """
         message = str(msg).encode(Client.FORMATO)
         msg_length = len(message)
@@ -39,7 +39,7 @@ class Client:
         Client.csk.send(send_length)
         Client.csk.send(message)
 
-    @staticmethod
+    
     def termina():
         """
         Envia un mensaje que informa de la terminación del envio de datos y cierra la conexión.
@@ -49,7 +49,7 @@ class Client:
         Client.csk.send("fin".encode('utf-8'))
         Client.csk.close()
 
-    @staticmethod
+    
     def main():
         """
         Envia un dato leido del fichero al servidor cada 10 segundos.
@@ -63,4 +63,4 @@ class Client:
                 time.sleep(0.5)
         Client.termina()    
 
-Client.main()        
+#Client.main()        

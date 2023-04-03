@@ -28,10 +28,10 @@ class Server:
         """
         Recibe los mensajes de la conexion y gestiona el tamaño del buffer dependiendo de la longitud del mensaje.
 
-        :param conn: la conexion.
-        :type conn: conesxion de la libreria socket.
-        :return: El mensaje recibido.
-        :rtype: String con formato utf-8.
+        param conn: la conexion.
+        type conn: conesxion de la libreria socket.
+        return: El mensaje recibido.
+        rtype: String con formato utf-8.
 
         """
         msg_length = conn.recv(Server.HEADER).decode('utf-8')
@@ -61,4 +61,4 @@ class Server:
             print(f'{timestamp}: Datos recibidos: {message}')
         sk.close()    
 
-Server.main()
+# Server.main()
