@@ -7,7 +7,7 @@ setup(
     author='Enrique Estebanez',
     author_email='quiquecomaneaj@gmail.com',
     url='https://github.com/JavierRodriguezITCL/Prueba-Python/blob/Enrique_Branch/Ficheros_Examen/Examen_ITCL_Antolin.ipynb',
-    packages=['Socket'],
+    packages=['client','server','docs'],
     install_requires=[
         'numpy',
         'pandas',

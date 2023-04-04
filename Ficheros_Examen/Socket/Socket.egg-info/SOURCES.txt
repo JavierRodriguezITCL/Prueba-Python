@@ -1,0 +1,12 @@
+LICENSE
+setup.py
+Socket.egg-info/PKG-INFO
+Socket.egg-info/SOURCES.txt
+Socket.egg-info/dependency_links.txt
+Socket.egg-info/requires.txt
+Socket.egg-info/top_level.txt
+client/Client.py
+client/__init__.py
+docs/conf.py
+server/Server.py
+server/__init__.py

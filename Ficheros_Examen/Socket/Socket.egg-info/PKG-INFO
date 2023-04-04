@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: Socket
+Version: 1.0
+Summary: Prueba con sockets para intercambio de datos cliente-servidor
+Home-page: https://github.com/JavierRodriguezITCL/Prueba-Python/blob/Enrique_Branch/Ficheros_Examen/Examen_ITCL_Antolin.ipynb
+Author: Enrique Estebanez
+Author-email: quiquecomaneaj@gmail.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+License-File: LICENSE
